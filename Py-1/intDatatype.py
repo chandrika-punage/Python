@@ -27,3 +27,13 @@ print(type(c))
 print(type(d))
 
 
+print(0xA)      #10
+
+
+#Type Casting Functions:(converting into different datatype)
+
+print(int(15))    #15  
+print(bin(15))    #0b1111
+print(oct(15))    #0o17
+print(hex(15))    #0xf
+
