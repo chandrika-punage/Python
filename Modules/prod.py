@@ -2,7 +2,16 @@ import requests
 
 resp=requests.get('https://dummyjson.com/products')
 prod=resp.json()
-print(prod)
+print(type(prod))       #<class 'dict'>
+# print(prod)
+print(resp.status_code)     #200(Success)
 
-for product in prod:
+
+products=prod['products']
+print(type(products))           #<class 'list'>
+print(len(products))        #30
+
+
+
+
     
